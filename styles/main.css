@@ -407,13 +407,23 @@ CONTENT SECTION
     width: 100%;
 }
 
-.post-type-box span {
-    padding: 1em 1em;
+.post-type-box {
+    display: flex;
+    align-items: center;
+    padding: .7em .7em;
     transition: ease 0.2s;
     border-radius: .3em;
 }
 
-.post-type-box span:hover {
+.post-type-box span {
+    padding-left: .5em;
+}
+
+.post-type-box img {
+    width: 25px;
+}
+
+.post-type-box:hover {
     background-color: rgba(0, 0, 0, 0.1);
     transition: ease 0.2s;
     cursor: pointer;
